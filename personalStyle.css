@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* Global Styles */
+
+body {
+	margin: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+/* splash */
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.backtotop{
+	font-size: 17px;
+	font-family: "Lucida Console", Monaco, monospace;
+	display: block;
+	position: static;
+	margin-top: 60px;
+	text-decoration: none;
+	padding-bottom: 30px;
+}
+
+.backtotop:hover{
+	font-weight: 700;
+}
+
+.splash {
+	color: rgba(20,20,20,1.00);
+	background-color: rgba(250,250,250,1.00);
+	overflow: auto;
+}
+
+.splash .profile {
+	max-width: 1024px;
+	margin-top: 20px;
+	margin: 0 auto;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+.splash .profile .picture {
+	float: left;
+	padding: 45px;
+	padding-right: 60px;
+	padding-bottom: 0px;
+}
+
+.splash .profile .name {
+	color: rgba(50,50,50,1.00);
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.splash .profile .email {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.splash .profiletext {
+	padding: 40px;
+	padding-top: 70px;
+	margin: auto;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 2;
+}
+
+.splash .navbutton{
+	float: left;
+	margin: 25px;
+	height: 50px;
+}
+
+.splash .navbutton:hover{
+	opacity: 0.6;
+	filter: alpha(opacity=60)
+}
+
+.research {
+	background-color: #000015;
+	color: rgba(230,230,230,1.00);
+	overflow: auto;
+	margin: 0 auto;
+	padding: 80px;
+}
+
+.research h1{
+	margin-top: 0px;
+	font-size: 40px;
+	color: rgba(255,151,43,1.00);
+	text-align: center;
+}
+
+.research .researchSection{
+	overflow: auto;
+	padding: 20px;
+	margin: auto;
+	max-width: 1600px;
+}
+
+.research .researchSection h2{
+	font-size: 24px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+.research .researchSectionText {
+	padding-bottom: 25px;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	line-height: 2.3;
+}
+
+.research .researchSectionText a {
+	text-decoration: none;
+	color: rgba(255,241,133,1.00);
+}
+
+.research .researchSectionText a:hover {
+	text-decoration: underline;
+}
+
+.research .researchSectionQuote {
+	padding-bottom: 25px;
+	margin: auto;
+	font-size: 16px;
+	text-align: center;
+	line-height: 2.3;
+	font-style: italic;
+}
+
+.research .researchSectionList {
+	padding: 0px;
+	margin: auto;
+	font-size: 16px;
+	text-align: left;
+	line-height: 2.3;
+}
+
+.research .mediaGroupL {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 50px;
+	font-size: 14px;
+	color: rgba(180,180,255,1.00);
+	float: left;
+	width: 45%;
+	min-width: 450px;
+	text-align: center;
+}
+
+.research .mediaGroupR{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	padding-right: 0px;
+	font-size: 14px;
+	color: rgba(180,180,255,1.00);
+	float: right; 
+	width: 45%;
+	min-width: 450px;
+	text-align: center;
+}
+
+.research .backtotop {
+	color: white;
+}
+
+.cv{
+	margin-top: 0px;
+	color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-image: url("patchmentbg.jpg");
+    background-repeat: repeat;
+}
+
+.cvsection{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin: auto;
+	max-width: 1600px;
+}
+
+.cvsection .sectionTitle {
+	text-align: left;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.cvsection .sectionBody{
+	padding-left: 40px;	
+}
+
+.cvsection .sectionContentTitle {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+}
+
+.cvsection .sectionContent {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8;
+	text-align: left;
+}
+
+.cv .backtotop {
+	color: black;
+}
+
+footer .footerDisclaimer {
+	font-size: 12px;
+	line-height: 18px;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+/* Media query for Mobile devices*/
+@media only screen and (max-width : 980px) {
+
+.backtotop{
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.splash .profile .picture {
+	float: none;
+	padding: 10px;
+	padding-bottom: 2px;
+}
+
+.splash .profile .name {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.splash .profile .email {
+	font-size: 16px;
+	padding-bottom:0px;
+}
+
+.splash .profiletext {
+	padding: 40px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin: auto;
+	font-size: 14px;
+	line-height: 1.8;
+	text-align: center;
+}
+
+.splash .navbuttonbar {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.splash .navbutton{
+	float: none;
+	height: 40px;
+	margin: 10px;
+}
+
+.research {
+	padding: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.research h1 {
+	font-size: 32px;
+}
+
+.research .researchSection{
+	overflow: auto;
+	padding-bottom: 0px;
+}
+
+.research .researchSection h2{
+	text-align:center;
+	font-size: 20px;
+}
+
+.research .mediaGroupL, .research .mediaGroupR {
+	line-height: 1.4;
+	font-size: 12px;
+	float: none;
+	padding: 5px;
+	padding-bottom: 10px; 
+	width: 90%;
+	margin: auto;
+	min-width: 0px;
+}
+
+.research .researchSectionText {
+	line-height: 1.8;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.research .researchSectionList {
+	line-height: 1.8;
+	font-size: 14px;
+}
+
+.research .researchSectionQuote {
+	line-height: 1.8;
+	font-size: 14px;
+}
+
+.cv{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+}
+
+.cvsection{
+	padding-top: 20px;
+}
+
+.cvsection .sectionTitle {
+	text-align: left;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.cvsection .sectionBody{
+	padding-left: 40px;
+}
+
+.cvsection .sectionContentTitle {
+	font-size: 14px;
+}
+
+.cvsection .sectionContent {
+	font-size: 12px;
+	line-height:1.4;
+}
+
+footer .footerDisclaimer {
+	font-size: 10px;
+}
